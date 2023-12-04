@@ -1,0 +1,144 @@
+@font-face {
+    src: url(Fonts/Roboto/Roboto-medium.tff);
+    font-family:"Roboto";
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url(Fonts/Montserrat/Montserrat-medium.tff);
+}
+
+
+/* the mark "*" is used to do something for ALL alements*/
+
+* {
+    overflow:auto;
+}
+
+
+.box {
+    padding:"20px"
+}
+
+
+body{
+    background-color:#202020;
+    
+}
+
+
+p {
+    color:#615f63;
+    font-family:"Roboto","Montserrat";
+}
+
+a {
+    color: #0342a1;
+}
+
+button {
+    color:#615f63 ; background-color: #28282B;
+}
+
+
+
+dl {
+    color:#615f63;
+    background-color:#202020;
+    font-family:"Roboto", "Montserrat";
+}
+
+
+dd {
+    font-family: "Roboto", "Montserrat";
+    color: black;
+    
+}
+
+
+#Birthday {
+color: red; background-color: blue;
+}
+
+
+
+h1 {
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+
+
+h2 {
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+
+
+h3 {
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+}
+
+
+
+label {
+    color:#615f63;
+    font-family: "Roboto", "Montserrat";
+}
+
+
+
+button {
+    color:black;
+    font-family: "Roboto", "Montserrat";
+    text-shadow:3px 3px 5px #027ef2, -3px -3px 5px #f20232;
+    box-shadow:3px 3px 5px black;
+}
+
+
+
+input {
+    color:#212121;
+    font-family: "Roboto", "Montserrat";
+}
+
+
+
+select {
+    color:#212121;
+    font-family: "Roboto", "Montserrat";
+}
+
+
+
+textarea {
+    color:#212121;
+    font-family: "Roboto", "Montserrat";
+    border:6px black;
+}
+
+
+
+video {
+    border: 4px black solid;
+}
+
+
+header {
+    box-shadow:3px 3px 6px;
+    background-color:#800326;
+}
+
+
+#vergil-intro {
+    float: right
+}
+
+
+
+#ad {
+    position: fixed;
+    top:50px
+}
